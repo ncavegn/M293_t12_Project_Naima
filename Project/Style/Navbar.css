@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img {
+    height: 50px; /* Adjust this value based on your logo size */
+    margin-right: 10px;
+}
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.navbar-menu li {
+    display: inline;
+}
+.navbar-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 18px; /* Increase this value to make the font larger */
+}
+.navbar-menu li a:hover {
+    color: #868B8E;
+}
