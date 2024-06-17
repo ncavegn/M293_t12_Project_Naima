@@ -14,7 +14,8 @@ Dieses Wireframe habe ich am Anfang vom Projekt erstellt, damit ich eine gewisse
 ![Wireframe](image.png)
 
 ## Styleguide
-Logo: Da ich die Webseite von meinem Couseng anders designe, habe ich das Logo schon und muss kein neues erstellen. So sieht es aus ->
+Logo: Da ich die Webseite von meinem Couseng anders designe, habe ich das Logo schon und muss kein neues erstellen. So sieht es aus -> <br>
+![LogoHWE](image-2.png)
 
 Schriftart: Für Titel sowie die Navbar etc möchte ich von Google Fonts die Schrift Monserrat brauchen.  
 
