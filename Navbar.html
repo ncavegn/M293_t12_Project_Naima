@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 10px 20px;
+            border-bottom: 1px solid #000;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-logo img {
+            height: 50px; /* Adjust this value based on your logo size */
+            margin-right: 10px;
+        }
+        .navbar-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar-menu li {
+            display: inline;
+        }
+        .navbar-menu li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+        }
+        .navbar-menu li a:hover {
+            color: #868B8E;
+        }
+    </style>j
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="Homepage.html">Homepage</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+        </ul>
+    </div>
+</body>
+</html>
