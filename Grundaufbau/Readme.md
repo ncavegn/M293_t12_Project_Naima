@@ -9,6 +9,8 @@ Für den Lauftext habe ich mir überlegt, ein kurzes Intro über ihn als Person 
 Für den Inhalt, welcher ich als Raster darstellen will mache ich eine Seite mit den Produkten und nutze ein Grid.
 
 ## Wireframes
+![Wireframe](image.png)
+Dieses Wireframe habe ich am Anfang vom Projekt erstellt, damit ich eine gewisse Vorlage und Idee habe wie ich es umsetzen kann.
 
 ## Styleguide
 
