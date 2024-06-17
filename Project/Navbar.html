@@ -5,12 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Project/Style/Navbar.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .navbar-logo img {
+            height: 50px; /* Adjust this value based on your logo size */
+            margin-right: 10px;
+        }
+        .navbar-logo span {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .navbar-menu {
+            display: flex;
+            gap: 40px; /* Adjust this value to control the spacing between menu items */
+            flex-grow: 2;
+            justify-content: center;
+        }
+        .navbar-menu li {
+            list-style-type: none;
+        }
+        .navbar-menu li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 18px; /* Adjust this value to change the font size */
+        }
+        .navbar-menu li a:hover {
+            color: #868B8E;
+        }
+    </style>
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-logo">
-            <img src="Logo.png" alt="Logo">
+            <img src="logo.png" alt="Logo"> <!-- Replace 'logo.png' with the path to your logo image -->
+            <span>Hot Wire Extensions</span>
         </div>
         <ul class="navbar-menu">
             <li><a href="Homepage.html">Homepage</a></li>
