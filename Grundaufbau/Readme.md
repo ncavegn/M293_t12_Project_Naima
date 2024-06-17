@@ -9,10 +9,17 @@ Für den Lauftext habe ich mir überlegt, ein kurzes Intro über ihn als Person 
 Für den Inhalt, welcher ich als Raster darstellen will mache ich eine Seite mit den Produkten und nutze ein Grid.
 
 ## Wireframes
+Dieses Wireframe habe ich am Anfang vom Projekt erstellt, damit ich eine gewisse Vorlage und Idee habe wie ich es umsetzen kann.<br>
+
 ![Wireframe](image.png)
-Dieses Wireframe habe ich am Anfang vom Projekt erstellt, damit ich eine gewisse Vorlage und Idee habe wie ich es umsetzen kann.
 
 ## Styleguide
+Logo: Da ich die Webseite von meinem Couseng anders designe, habe ich das Logo schon und muss kein neues erstellen. So sieht es aus ->
+
+Schriftart: Für Titel sowie die Navbar etc möchte ich von Google Fonts die Schrift Monserrat brauchen.  
+
+Farben: Für die Farben möchte ich eher schlichte Farben verwenden. <br>
+![FarbenPalette](image-1.png)
 
 ## Template Seiten
 
